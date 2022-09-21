@@ -1,0 +1,15 @@
+server:
+    port: 8090
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/snap_food
+    username: postgres
+    password: 1234
+
+  jpa:
+    database-platform: org.hibernate.dialect.postgreSQLDialect
+    database: postgresql
+    hibernate:
+      ddl-auto: update
